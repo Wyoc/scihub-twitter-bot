@@ -52,7 +52,7 @@ if __name__ == "__main__":
     urls = get_scihub_mirrors_up()
     pprint(urls)
 
-    message = '🚀 Sci-hub mirrors available today:'
+    message = ' Sci-hub mirrors available today:'
     for url in urls:
         message = message+"\n- {}".format(url)
 
